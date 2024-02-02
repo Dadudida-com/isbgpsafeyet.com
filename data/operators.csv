@@ -1,4 +1,15 @@
 name,type,details,status,asn,rank
+Softbank,ISP,,unsafe,17676,111
+NTT Docomo,ISP,,unsafe,9605,11764
+ASAHI Net,ISP,,unsafe,4685,11789
+Cobaso,Cloud,,safe,399866,39207
+Rakuten Mobile,ISP,,unsafe,138384,5474
+LG U+ (Mobile),ISP,,unsafe,17853,11882
+LG U+ (Fixed Line),ISP,,unsafe,17858,11744
+SK Telecom,ISP,,unsafe,9644,11747
+KT (Fixed Line),ISP,,unsafe,4766,46
+Sejong Telecom,ISP,,unsafe,4670,3469
+JCOM,ISP,,unsafe,9824,1411
 Lumen,transit,signed + filtering,safe,3356,1
 Arelion (formerly Telia),transit,signed + filtering,safe,1299,2
 Cogent,transit,signed + filtering,safe,174,3
@@ -7,7 +18,7 @@ Sparkle,transit,started,unsafe,6762,5
 Hurricane Electric,transit,signed + filtering,safe,6939,6
 GTT,transit,signed + filtering,safe,3257,7
 TATA,transit,signed + filtering,safe,6453,8
-Zayo,transit,partially signed + filtering peers only,partially safe,6461,9
+Zayo,transit,signed + filtering,safe,6461,9
 PCCW,transit,signed + filtering,safe,3491,10
 Vodafone,transit,,unsafe,1273,11
 RETN,transit,partially signed + filtering,safe,9002,12
@@ -18,7 +29,7 @@ PJSC RosTelecom,transit,,unsafe,12389,17
 TransTelecom,transit,,unsafe,20485,18
 Comcast,ISP,signed + filtering,safe,7922,19
 AT&T,ISP,signed + filtering peers only,partially safe,7018,20
-Verizon,ISP,signed + filtering peers only,partially safe,701,21
+Verizon,ISP,signed + filtering,safe,701,21
 Liberty Global,transit,signed + filtering,safe,6830,22
 SingTel,transit,,unsafe,7473,24
 Deutsche Telekom,ISP,started,unsafe,3320,25
@@ -151,6 +162,7 @@ Blix Solutions AS,cloud,,unsafe,50304,792
 Trustpower,ISP,signed + filtering,safe,55850,796
 Telenet,ISP,,unsafe,6848,804
 Obenetwork,ISP,signed + filtering,safe,3399,833
+Karabro AB,ISP,signed + filtering,safe,51519,4927
 NOS COMUNICACOES,ISP,signed + filtering,safe,2860,836
 2degrees,ISP,,unsafe,23655,856
 Altibox,ISP,signed + filtering,safe,29695,872
@@ -400,8 +412,9 @@ TELUS Communications,ISP,signed + filtering,safe,852,166
 Bristol Bay Telephone Coop,ISP,signed + filtering,safe,397388,74134
 Advanced Wireless Network Co. Ltd.,ISP,signed,unsafe,133481,74135
 Netinternet,cloud,signed + filtering,safe,51559,2136
-UPX TECNOLOGIA,transit,signed + filtering,Safe,52863,338
+UPX TECNOLOGIA,transit,signed + filtering,safe,52863,338
 Ursin Filli,ISP,signed + filtering,safe,202427,75328
 Rose Telecom,ISP,signed + filtering,safe,54681,24936
 Bryan Barbolina trading as Cloudwebservices,cloud,signed + filtering,safe,213268,65065
 Hazelnet,ISP,signed + filtering,safe,200242,75603
+Parknet,ISP,signed + filtering,safe,197301,19561
